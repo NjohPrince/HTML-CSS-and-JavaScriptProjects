@@ -16,4 +16,32 @@ body{
 }
 .progress-container{
     display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+}
+.progress-container::before{
+    content: '';
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    transition: 0.4s ease;
+}
+.progress{
+    background-color: #3498db;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    transition: 0.4s ease;
 }
