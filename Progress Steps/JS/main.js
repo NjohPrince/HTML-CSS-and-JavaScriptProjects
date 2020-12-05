@@ -18,3 +18,13 @@ next.addEventListener('click', () => {
         next.setAttribute('disabled', '');
     }
 })
+
+prev.addEventListener('click', () => {
+    newWidth -= 33;
+    progress.style.width = newWidth + "%";
+    circles[currentActive].classList.remove('active')
+    currentActive--;
+    if (currentActive == 0) {
+        prev.setAttribute('disabled', '');
+    }
+})
