@@ -69,3 +69,14 @@ nav > ul > li{
     cursor: pointer;
     margin: 5px;
 }
+.content-rotate{
+    margin: 45px;
+    transform: rotate(-25deg);
+    transition: 0.8s;
+}
+.nav-rotate{
+    transform: rotate(-5deg);
+    top: 65px;
+    left: 15px;
+    transition: 1s;
+}
