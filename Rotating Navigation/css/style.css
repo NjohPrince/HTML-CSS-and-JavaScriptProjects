@@ -59,3 +59,13 @@ body{
 .container > .content > h3{
     font-size: 17px;
 }
+nav{
+    position: absolute;
+    transition: 1s;
+}
+nav > ul > li{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    margin: 5px;
+}
