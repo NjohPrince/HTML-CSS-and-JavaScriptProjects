@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container{
-    width: 100%;
+body{
+    background-color: #f6f7fb;
     height: 100vh;
     display: flex;
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
+.container{
+    text-align: center;
+}
+.progress-container{
+    display: flex;
 }
