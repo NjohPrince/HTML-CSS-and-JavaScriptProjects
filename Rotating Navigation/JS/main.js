@@ -10,3 +10,10 @@ open.addEventListener('click', () => {
     open.style.display = 'none'
     close.style.display = 'block';
 })
+
+close.addEventListener('click', () => {
+    content.classList.remove('content-rotate');
+    nav.classList.remove('nav-rotate');
+    open.style.display = 'flex'
+    close.style.display = 'none';
+})
