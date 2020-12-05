@@ -64,3 +64,24 @@ body{
 .circle.active{
     border-color: var(--line-border-fill);
 }
+.btn{
+    background-color: var(--line-border-fill);
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 25px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:focus{
+    outline: none;
+}
+.btn:disabled{
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+}
