@@ -21,3 +21,32 @@ body{
     align-items: center;
     border-bottom-right-radius: 60%;
 }
+.circle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#open,
+#close{
+    border: none;
+    height: 25px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+}
+.container > .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    transition: 0.8s;
+    justify-self: center;
+}
