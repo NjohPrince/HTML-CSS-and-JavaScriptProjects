@@ -27,4 +27,7 @@ prev.addEventListener('click', () => {
     if (currentActive == 0) {
         prev.setAttribute('disabled', '');
     }
+    if (currentActive <= 2) {
+        next.removeAttribute('disabled');
+    }
 })
