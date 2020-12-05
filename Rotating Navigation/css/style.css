@@ -50,3 +50,12 @@ body{
     transition: 0.8s;
     justify-self: center;
 }
+.container > .content > h1{
+    font-size: 24px;
+}
+.container > .content > p{
+    font-size: 15px;
+}
+.container > .content > h3{
+    font-size: 17px;
+}
