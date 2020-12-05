@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
-    height: 100vh;
-    display: flex;
+    background-color: black;
     overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+.circle-container{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-attachment: fixed;
+    background-color: orange;
+    width: 55px;
+    height: 55px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom-right-radius: 60%;
 }
