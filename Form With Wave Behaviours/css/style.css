@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f6f7fb;
+    background-color: steelblue;
     height: 100vh;
     display: flex;
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
 }
