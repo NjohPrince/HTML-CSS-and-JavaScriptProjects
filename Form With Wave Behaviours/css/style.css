@@ -38,6 +38,12 @@ body{
 .btn:focus{
     outline: none;
 }
+.btn:active{
+    transform: scale(0.98);
+}
+p{
+    margin: 15px;
+}
 .form-control{
     position: relative;
     margin: 20px 0 40px;
@@ -50,7 +56,7 @@ body{
     width: 100%;
     display: block;
     padding: 8px 0;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
 }
 .form-control input:focus,
