@@ -110,5 +110,10 @@ h1{
 @media screen and (max-width: 800px){
     h1{
         font-size: 2rem;
+        top: 20%;
+    }
+    .btn{
+        padding: 1.2rem;
+        width: 8rem;
     }
 }
