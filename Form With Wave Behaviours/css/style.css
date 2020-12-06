@@ -36,4 +36,11 @@ body{
     border-bottom: 2px solid #fff;
     width: 100%;
     display: block;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+}
+.form-control input:focus,
+.form-control input:valid{
+    outline: none;
 }
