@@ -14,11 +14,14 @@ h1{
   margin: 10px;
 }
 .box{
-  margin: 15px;
-  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  height: 200px;
   background-color: orangered;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.7);
 }
