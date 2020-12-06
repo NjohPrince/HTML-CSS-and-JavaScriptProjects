@@ -94,9 +94,9 @@ h1{
 .hover-left .right{
     width: var(--other-width);
 }
-.hover-left .right{
+.hover-right .right{
     width: var(--hover-width);
 }
-.hover-left .left{
+.hover-right .left{
     width: var(--other-width);
 }
