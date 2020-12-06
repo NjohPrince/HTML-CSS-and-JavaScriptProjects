@@ -4,10 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #f6f7fb;
-  height: 100vh;
+  background-color: #efedd6;
   display: flex;
-  overflow: hidden;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
