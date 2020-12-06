@@ -17,7 +17,7 @@ h1{
 }
 .box{
   margin: 10px;
-  width: 400px;
+  width: 80%;
   height: 200px;
   background-color: orangered;
   color: #fff;
@@ -28,6 +28,12 @@ h1{
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.7);
   transform: translateX(200%);
   transition: transform 0.5s ease;
+  border: 10px solid white;
+}
+h1{
+  font-size: 27px;
+  font-family: sans-serif;
+  text-decoration: underline;
 }
 .box:nth-of-type(even){
   transform: translateX(-200%);
