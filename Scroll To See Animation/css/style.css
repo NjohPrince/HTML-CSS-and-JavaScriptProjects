@@ -9,9 +9,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow-y: hidden;
 }
 h1{
   margin: 10px;
+  color: orangered;
 }
 .box{
   margin: 10px;
@@ -24,4 +26,10 @@ h1{
   align-items: center;
   border-radius: 5px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.7);
+  transform: translateX(200%);
+  transition: transform 0.3s ease;
+}
+
+.show{
+  transform: translateX(0);
 }
