@@ -21,3 +21,12 @@ body{
     height: 100%;
     overflow: hidden;
 }
+.split.left{
+    left: 0;
+    background: url('../images/game.jpg') no-repeat center center/cover;
+}
+
+.split.right{
+    right: 0;
+    background: url('../images/game.jpg') no-repeat center center/cover;
+}
