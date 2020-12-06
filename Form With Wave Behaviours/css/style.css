@@ -25,6 +25,19 @@ body{
     text-decoration: none;
     color: lightblue;
 }
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
 .form-control{
     position: relative;
     margin: 20px 0 40px;
@@ -36,7 +49,7 @@ body{
     border-bottom: 2px solid #fff;
     width: 100%;
     display: block;
-    padding: 10px 0;
+    padding: 8px 0;
     font-size: 18px;
     color: white;
 }
