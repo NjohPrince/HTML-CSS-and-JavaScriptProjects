@@ -22,6 +22,6 @@ body {
   filter: blur(0px);
 }
 .loading-text{
-  font-size: 50px;
+  font-size: 20px;
   color: #fff;
 }
