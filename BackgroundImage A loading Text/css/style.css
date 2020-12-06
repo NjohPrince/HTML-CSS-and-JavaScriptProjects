@@ -14,10 +14,10 @@ body {
 .bg{
   background: url('../image/pong.png') no-repeat center center/cover;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  top: -30;
+  left: -30;
+  width: calc(100vw + 65px);
+  height: calc(100vh + 65px);
   z-index: -1;
   filter: blur(0px);
 }
