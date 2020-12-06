@@ -29,7 +29,9 @@ h1{
   transform: translateX(200%);
   transition: transform 0.3s ease;
 }
-
+.box:nth-of-type(even){
+  transform: translateX(-200%);
+}
 .show{
   transform: translateX(0);
 }
