@@ -33,7 +33,7 @@ h1{
   transform: translateX(-200%);
   transition: transform 0.5s ease;
 }
-.show{
+.box.show{
   transform: translateX(0);
   transition: transform 0.5s ease;
 }
